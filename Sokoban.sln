@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sokoban", "Sokoban\Sokoban.csproj", "{578FA056-58D2-46B6-84DA-9216884516B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SokobenOnConsole", "SokobenOnConsole\SokobenOnConsole.csproj", "{E35C6D3E-EFB6-4B85-9361-F50D01A62A15}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SokobanOnConsole", "SokobanOnConsole\SokobanOnConsole.csproj", "{E35C6D3E-EFB6-4B85-9361-F50D01A62A15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
