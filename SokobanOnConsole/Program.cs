@@ -16,6 +16,7 @@ var stageText =
 
 var view = new SokobanView(stageText,out var tiles);
 var stage = new SokobanGame<SokobanEntity>(tiles,view);
+Console.Clear();
 Console.WriteLine("--------------------");
 Console.WriteLine("Hello! This is a sokoban test!");
 Console.WriteLine("You need to move all boxes to goals");
@@ -66,6 +67,9 @@ while (true)
         }
     }
     Console.Clear();
+    Console.WriteLine("# : wall, $ : box  @ : player * : goal");
+    Console.WriteLine("! : player on goal + is box on goal");
+    Console.WriteLine("Use arrow keys to move, Z to undo, R to reset, Q to quit");
     Console.WriteLine(view.GetCurrentStateString());
     if (result == MoveResult.Win)
     {
